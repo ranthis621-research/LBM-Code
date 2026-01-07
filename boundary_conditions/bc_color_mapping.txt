@@ -1,0 +1,18 @@
+Number <- RGB Color Mapping
+0: [255,255,255],   # Standard fluid
+1: [0, 0, 0],       # Solid walls (BB)
+2: [255, 0, 0],     # Periodic
+3: [0, 0, 255],     # Inlet/Outlet (pressure BCs)
+4: [0, 255, 0]      # Inlet/Outlet (velocity BCs)
+
+11: Solid wall boundary
+12: Solid wall - periodic hybrid boundary
+13: Solid wall - open pressure (inlet/outlet) hybrid boundary
+14: Solid wall - open velocity (inlet/outlet) hybrid boundary
+
+23: periodic - open pressure hybrid boundary
+24: periodic - open velocity hybrid boundary
+
+33: open pressure boundary
+
+44: open velocity boundary

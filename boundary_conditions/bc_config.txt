@@ -1,0 +1,4 @@
+periodic_bc_link_direction = x
+
+p_in = 1
+p_out = 0.9
